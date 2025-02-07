@@ -1,0 +1,310 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:Wght@&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+ /* @import url(https://fonts.google.com/specimen/Outfit?preview.size=36); */
+
+ * {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     padding: 10px;
+     margin: 0px;
+
+
+
+ }
+
+ body {
+     background-color: black;
+     color: white;
+ }
+
+
+ .left {
+     width: 25vw;
+     min-height: 100vh;
+
+ }
+
+ .right {
+     width: 75vw;
+    position: relative;
+   
+ 
+
+ }
+
+ .container {
+     margin-top: -34px;
+
+ }
+
+
+ img.invert.logo {
+     width: 50px;
+     padding: 0px;
+
+ }
+
+ img.invert.home {
+     margin-top: -62px;
+     padding: 17px;
+ }
+
+ img.invert.brow {
+     display: flex;
+     justify-content: center;
+     margin-left: 820px;
+     margin-top: -63px;
+     color: grey;
+     width: 35px;
+ }
+
+ .homestyle button {
+     display: contents;
+
+ }
+
+ .homestyle ul li {
+     list-style: none;
+     margin-top: -90px;
+     display: flex;
+     border-radius: 100px;
+     background: #2A2A2A;
+     width: 700px;
+     margin-left: 170px;
+     height: 50px;
+
+
+ }
+
+
+
+ .search {
+     margin-top: -1px;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ img.invert.search {
+
+     width: 73px;
+     margin-left: -10px;
+ }
+
+ .letter {
+     font-size: 25px;
+     margin-left: -22px;
+     color: rgb(163, 155, 155);
+     font-weight: 400;
+     justify-content: center;
+     align-items: center;
+
+
+
+ }
+
+ .homestyle button img {
+     margin-top: -70px;
+     display: flex;
+     width: 40px;
+     background-color: rgb(221, 217, 217);
+     border-radius: 10000px;
+     margin-left: 90px;
+ }
+
+
+
+ .library {
+
+     margin-top: -2px;
+     margin-bottom: -39px;
+     margin-left: -19px;
+ }
+
+ .library ul li {
+
+     font-display: inline;
+     display: flex;
+     gap: 0px;
+     width: 50px;
+     list-style: none;
+     font-weight: 400;
+     font-size: 15px;
+     padding-top: 10px;
+     align-items: center;
+ }
+
+ .first {
+     margin-top: 30px;
+     background-color: #121212;
+     height: 190px;
+     font-size: 20px;
+     font-stretch: expanded;
+
+
+ }
+
+ .btn button {
+     width: 190px;
+ }
+
+ .first button {
+     padding: 15px;
+     font-size: 20px;
+     margin-top: 15px;
+     background-color: azure;
+     border-radius: 29px;
+     margin: 20px;
+     font-stretch: ultra-expanded;
+     font-weight: 900;
+     border: 2px solid azure;
+ }
+
+
+
+ .invert {
+     filter: invert(1);
+     width: 50px;
+ }
+
+ .second {
+     margin-top: 50px;
+     font-size: 20px;
+ }
+
+ .rounded {
+     border-radius: 10px;
+ }
+
+ .footer {
+     display: flex;
+     font-size: 12px;
+     color: grey;
+     gap: 13px;
+     position: absolute;
+     padding: 17px 0;
+      /* margin-top: 700px;  */
+     margin-bottom: -140px;
+     bottom: 0;
+    
+   
+ }
+
+
+
+
+ .footer a {
+     color: grey;
+     padding: 34px 0px;
+ }
+
+ .heading {
+     margin-top: 48px;
+     margin-left: 12px;
+     margin-bottom: 40px;
+     font-size: 45px;
+     font-family: sans-serif;
+     font-weight: 900;
+ }
+
+ .header {
+     display: flex;
+     gap: 0px;
+     flex-wrap: wrap;
+     overflow-y: scroll;
+   
+ }
+
+ img.photo {
+     border-radius: 210px;
+     padding: 25px;
+     margin-top: 23px;
+     width: 255px;
+ }
+
+ img.name {
+     font-size: 45px;
+     font-weight: 400;
+ }
+
+ .arijit {
+
+     width: 255px;
+     border-radius: 300px;
+     height: 270px;
+
+ }
+
+ .name {
+     font: caption;
+     font-size: 23px;
+     font-weight: 300;
+     margin: -23px 0px;
+
+ }
+
+ .hobby {
+     font: caption;
+     color: grey;
+     font-size: 19px;
+     margin: 12px 0px;
+ }
+
+ .right {
+     background-color: black;
+ }
+
+ .card {
+    position: relative;
+    padding: 5px;
+ }
+ .card:hover{
+    background-color: #2A2A2A;
+    border-radius: 10px;
+ }
+
+ img.play-button {
+    margin-top: 212px;
+    margin-left: -118px;
+    position: absolute;
+    width: 63px;
+    transition: opacity o.1s ease-in-out;
+  
+
+}
+img.play-button{
+    opacity: 0;
+    background-image: url(playbutton.svg);
+
+    
+}
+ 
+img.play-button:hover{
+    opacity: 1;
+  
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: pink;
+    width: 98.10%;
+    padding: -19px;
+}
+.btn{
+    width: 23px;
+}
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
